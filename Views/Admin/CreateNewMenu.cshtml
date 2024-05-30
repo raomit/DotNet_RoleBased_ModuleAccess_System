@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "CreateNewMenu";
+    Layout = "~/Views/Shared/_AdminDashboard.cshtml";
+}
+
+<h2>Create New Menu Type</h2>
+
+@using MvcExamTaskMitRao.Models
+@model Menu
+
+@using (Html.BeginForm("CreateNewMenu", "Admin", FormMethod.Post))
+{
+    @Html.LabelFor(x => x.menuType, "Menu Type", new { @class = "form-label d-block" })
+    @Html.TextBoxFor(x => x.menuType, "", new { @class = "form-control", @type = "text" })
+    @Html.ValidationMessageFor(x => x.menuType, "", new { @class = "text-danger" })
+
+    <button type="submit" class="btn btn-small btn-success mt-4 d-block">Create Menu</button>
+}

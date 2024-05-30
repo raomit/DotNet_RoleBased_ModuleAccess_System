@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "GetOrders";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+@using MvcExamTaskMitRao.Models
+@model (User CurrentUser, List<string> ProductMenus, List<ProductMenuItem> productMenuItems, List<ProductMenuItem> allStockItems)
+<h2>GetOrders</h2>
+<main>
+    <table class="table table-responsive table-striped">
+        <thead>
+        <th>Item Name</th>
+        <th>Item Name</th>
+        </thead>
+
+        @foreach (var item in Model.allStockItems)
+        {
+            <tr>
+                <td>@item.itemname</td>
+                <td>@item.itemdesc</td>
+            </tr>
+        }
+    </table>
+</main>

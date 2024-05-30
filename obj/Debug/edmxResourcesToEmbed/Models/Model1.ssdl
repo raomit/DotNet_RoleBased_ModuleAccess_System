@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RaoMitModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="menuId" />
+    </Key>
+    <Property Name="menuId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="menuType" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="roleId" />
+    </Key>
+    <Property Name="roleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="roleType" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RolesMenus">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="roleId" Type="int" />
+    <Property Name="menuId" Type="int" />
+  </EntityType>
+  <EntityType Name="RolesUsers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="roleId" Type="int" />
+    <Property Name="userId" Type="int" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="birthDate" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="contactNo" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="fullName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="type" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__RolesMenu__menuI__440B1D61">
+    <End Role="Menu" Type="Self.Menu" Multiplicity="0..1" />
+    <End Role="RolesMenus" Type="Self.RolesMenus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Menu">
+        <PropertyRef Name="menuId" />
+      </Principal>
+      <Dependent Role="RolesMenus">
+        <PropertyRef Name="menuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RolesMenu__roleI__4316F928">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="RolesMenus" Type="Self.RolesMenus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="roleId" />
+      </Principal>
+      <Dependent Role="RolesMenus">
+        <PropertyRef Name="roleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RolesUser__roleI__3F466844">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="RolesUsers" Type="Self.RolesUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="roleId" />
+      </Principal>
+      <Dependent Role="RolesUsers">
+        <PropertyRef Name="roleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RolesUsers_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="RolesUsers" Type="Self.RolesUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userId" />
+      </Principal>
+      <Dependent Role="RolesUsers">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RaoMitModelStoreContainer">
+    <EntitySet Name="Menu" EntityType="Self.Menu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RolesMenus" EntityType="Self.RolesMenus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RolesUsers" EntityType="Self.RolesUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__RolesMenu__menuI__440B1D61" Association="Self.FK__RolesMenu__menuI__440B1D61">
+      <End Role="Menu" EntitySet="Menu" />
+      <End Role="RolesMenus" EntitySet="RolesMenus" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RolesMenu__roleI__4316F928" Association="Self.FK__RolesMenu__roleI__4316F928">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="RolesMenus" EntitySet="RolesMenus" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RolesUser__roleI__3F466844" Association="Self.FK__RolesUser__roleI__3F466844">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="RolesUsers" EntitySet="RolesUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RolesUsers_Users" Association="Self.FK_RolesUsers_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="RolesUsers" EntitySet="RolesUsers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

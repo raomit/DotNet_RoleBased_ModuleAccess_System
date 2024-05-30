@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "GetManageMenus";
+    Layout = "~/Views/Shared/_AdminDashboard.cshtml";
+}
+
+
+
+@model List<MvcExamTaskMitRao.Models.Menu>
+<h2>Manage Menus</h2>
+
+@if (Model.Count() == 0)
+{
+    <div class="container d-flex justify-content-between mt-3 px-0">
+        <h4 class="text-danger mx-0">No Menus Cyrrently There Inside The System</h4>
+        <button class="btn btn-primary"><a class="link-light page-link" href="~/Admin/CreateNewMenu">Create Menu</a></button>
+    </div>
+}
+else
+{
+    <div class="container d-flex justify-content-end">
+        <button class="btn btn-primary"><a class="link-light page-link" href="~/Admin/CreateNewMenu">Create Menu</a></button>
+    </div>
+    <table class="table table-hover text-center">
+        <thead>
+            <th>Menu Type</th>
+            <th>Menu Action</th>
+        </thead>
+        <tbody>
+            @foreach(var Menu in Model)
+                {
+                    <tr>
+                        <td>@Menu.menuType</td>
+                        <td>
+                            <button class="btn btn-success"><a class="link-light page-link" href="~/Admin/UpdateMenu/@Menu.menuId">Update Menu</a></button>
+                            @{ 
+                                bool isMenuAssociatedWithRole = Menu.RolesMenus.Any(mr => mr.menuId == Menu.menuId);
+if (isMenuAssociatedWithRole)
+                    {
+                                                        <button class="btn btn-danger disabled"><a class="link-light page-link" href="~/Admin/DeleteMenu/@Menu.menuId">Delete Menu</a></button>
+}
+else
+                    {
+                        <button class="btn btn-danger"><a class="link-light page-link" href="~/Admin/DeleteMenu/@Menu.menuId">Delete Menu</a></button>
+                    }
+                            }    
+                        </td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+}
+

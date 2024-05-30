@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "GetManageRoles";
+    Layout = "~/Views/Shared/_AdminDashboard.cshtml";
+}
+
+@model(List<MvcExamTaskMitRao.Models.Role> AllRoles, List<MvcExamTaskMitRao.Models.Menu> AllMenus)
+
+<h2>Manage Users</h2>
+
+<div class="container d-flex justify-content-end">
+    <button class="btn btn-primary"><a class="link-light page-link" href="~/Admin/CreateNewRole">Create New Role</a></button>
+</div>
+<table class="table table-hover text-center">
+    <thead>
+    <th style="display: none">Role id</th>
+    <th>Role Type</th>
+    @foreach (var Menu in @Model.AllMenus)
+    {
+        <th>@Menu.menuType</th>
+    }
+    <th>Actions</th>
+    </thead>
+    <tbody>
+        @foreach (var Role in @Model.AllRoles)
+        {
+            <tr>
+                <td style="display: none">@Role.roleId</td>
+                <td>@Role.roleType</td>
+                @foreach (var Menu in Model.AllMenus)
+                {
+                    <td>
+
+                        @if (Role.roleType == "admin")
+                        {
+                           <input type="checkbox" name="selectedRoles" value="@Role.roleId" checked disabled />
+                        }
+                        else
+                        {
+                            bool IsMenuAccessExist = Menu.RolesMenus.Any(rm => rm.Role.roleId == Role.roleId);
+                            <input type="checkbox" name="selectedRoles" data-role-id="@Role.roleId" data-menu-id="@Menu.menuId" value="@Role.roleId" @(IsMenuAccessExist ? "checked" : "") />
+                        }
+
+                    </td>
+                }
+            <td>
+                @if (!(Role.roleType == "admin"))
+                {
+                    <button class="btn btn-secondary"><a class="link-light page-link" href="/Admin/UpdateRole/@Role.roleId">Update Role Info</a></button>
+                    <button class="btn btn-success" onclick="updateRoleAccess(this)">Update Role Access</button>
+                   
+                        bool IsRoleAssociatedUser = Role.RolesUsers.Any(ru => ru.roleId == Role.roleId);
+                        if (IsRoleAssociatedUser)
+                        {
+                            <button class="btn btn-danger disabled"><a class="link-light page-link" href="/Admin/DeleteRole/@Role.roleId">Delete Role</a></button>
+                        }
+                        else
+                        {
+                            <button class="btn btn-danger"><a class="link-light page-link" href="/Admin/DeleteRole/@Role.roleId">Delete Role</a></button>
+                        }
+                }
+
+            </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

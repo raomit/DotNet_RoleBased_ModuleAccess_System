@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2e764d935fde46c8a8c252ea23828359" Name="Diagram1">
+        <EntityTypeShape EntityType="RaoMitModel.Menu" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaoMitModel.Role" Width="1.5" PointX="10.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaoMitModel.RolesMenu" Width="1.5" PointX="7.375" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaoMitModel.RolesUser" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaoMitModel.User" Width="1.5" PointX="4.875" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="RaoMitModel.FK__RolesMenu__menuI__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="RaoMitModel.FK__RolesMenu__roleI__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="RaoMitModel.FK__RolesUser__roleI__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="RaoMitModel.FK__RolesUser__userI__403A8C7D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
