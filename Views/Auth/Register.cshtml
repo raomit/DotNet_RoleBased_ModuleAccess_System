@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+@using MvcExamTaskMitRao.Models
+@model User
+
+<h2>Register</h2>
+
+@using (Html.BeginForm("Register", "Auth", FormMethod.Post))
+{
+    @Html.LabelFor(x => x.Email, "Email", new { @class = "form-label d-block" })
+    @Html.TextBoxFor(x => x.Email, "", new { @class = "form-control", @type = "email" })
+    @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" })
+
+    if (ViewBag.error != null) { 
+       <span class="text-danger">@ViewBag.error</span> 
+    }
+
+    @Html.LabelFor(x => x.Fullname, "Fullname", new { @class = "form-label d-block" })
+    @Html.TextBoxFor(x => x.Fullname, "", new { @class = "form-control", @type = "text" })
+    @Html.ValidationMessageFor(x => x.Fullname, "", new { @class = "text-danger" })
+
+    @Html.LabelFor(x => x.BirthDate, "Birth Date", new { @class = "form-label d-block", @max = "1995-12-31" })
+    @Html.TextBoxFor(x => x.BirthDate, "", new { @class = "form-control", @type = "date" })
+    @Html.ValidationMessageFor(x => x.BirthDate, "", new { @class = "text-danger" })
+
+    @Html.LabelFor(x => x.Password, "Password", new { @class = "form-label d-block" })
+    @Html.TextBoxFor(x => x.Password, "", new { @class = "form-control", @type = "password" })
+    @Html.ValidationMessageFor(x => x.Password, "", new { @class = "text-danger" })
+
+    @Html.LabelFor(x => x.ContactNo, "Contact No", new { @class = "form-label d-block" })
+    @Html.TextBoxFor(x => x.ContactNo, "", new { @class = "form-control", @type = "number" })
+    @Html.ValidationMessageFor(x => x.ContactNo, "", new { @class = "text-danger" })
+
+
+    <button type="submit" class="btn btn-small btn-success mt-4 d-block">Register</button>
+}
+
+

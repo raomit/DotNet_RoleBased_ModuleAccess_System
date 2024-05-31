@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ExamModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ProductMenu">
+    <Key>
+      <PropertyRef Name="productMenuId" />
+    </Key>
+    <Property Name="productMenuId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="menuName" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="menuItem1" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="roleId" Type="int" />
+  </EntityType>
+  <EntityType Name="ProductMenuItem">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="itemname" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="itemdesc" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="ProductMenuId" Type="int" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="roleId" />
+    </Key>
+    <Property Name="roleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="roleName" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RolesUsers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="roleId" Type="int" />
+    <Property Name="userId" Type="int" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="BirthDate" Type="datetime" />
+    <Property Name="ContactNo" Type="varchar" MaxLength="10" />
+    <Property Name="Fullname" Type="varchar" MaxLength="255" />
+    <Property Name="Password" Type="varchar" MaxLength="255" />
+    <Property Name="Type" Type="varchar" MaxLength="255" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="CratedBy" Type="int" />
+    <Property Name="Isdeleted" Type="int" />
+  </EntityType>
+  <Association Name="FK__ProductMe__Produ__3493CFA7">
+    <End Role="ProductMenu" Type="Self.ProductMenu" Multiplicity="0..1" />
+    <End Role="ProductMenuItem" Type="Self.ProductMenuItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductMenu">
+        <PropertyRef Name="productMenuId" />
+      </Principal>
+      <Dependent Role="ProductMenuItem">
+        <PropertyRef Name="ProductMenuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProductMe__roleI__7F2BE32F">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+    <End Role="ProductMenu" Type="Self.ProductMenu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="roleId" />
+      </Principal>
+      <Dependent Role="ProductMenu">
+        <PropertyRef Name="roleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RolesUser__roleI__71D1E811">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+    <End Role="RolesUsers" Type="Self.RolesUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="roleId" />
+      </Principal>
+      <Dependent Role="RolesUsers">
+        <PropertyRef Name="roleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RolesUser__userI__72C60C4A">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="RolesUsers" Type="Self.RolesUsers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="RolesUsers">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ExamModelStoreContainer">
+    <EntitySet Name="ProductMenu" EntityType="Self.ProductMenu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductMenuItem" EntityType="Self.ProductMenuItem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RolesUsers" EntityType="Self.RolesUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__ProductMe__Produ__3493CFA7" Association="Self.FK__ProductMe__Produ__3493CFA7">
+      <End Role="ProductMenu" EntitySet="ProductMenu" />
+      <End Role="ProductMenuItem" EntitySet="ProductMenuItem" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProductMe__roleI__7F2BE32F" Association="Self.FK__ProductMe__roleI__7F2BE32F">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="ProductMenu" EntitySet="ProductMenu" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RolesUser__roleI__71D1E811" Association="Self.FK__RolesUser__roleI__71D1E811">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="RolesUsers" EntitySet="RolesUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RolesUser__userI__72C60C4A" Association="Self.FK__RolesUser__userI__72C60C4A">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="RolesUsers" EntitySet="RolesUsers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

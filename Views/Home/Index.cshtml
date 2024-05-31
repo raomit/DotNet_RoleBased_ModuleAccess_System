@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+@using MvcExamTaskMitRao.Models
+@model (User CurrentUser, List<string> ProductMenus, List<ProductMenuItem> productMenuItems, List<ProductMenuItem> allStockItems)
+<main>
+    <h1>Welcome @Model.CurrentUser.Fullname 👋 !!</h1>
+</main>

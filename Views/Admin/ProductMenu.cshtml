@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_AdminDashboard.cshtml";
+}
+
+@model List<MvcExamTaskMitRao.Models.ProductMenuItem>
+
+
+<div>
+    <a href="/Admin/CreateProductMenu">Add Item To Product Menu</a>
+    @if (@Model.Count() == 0 || Model == null)
+    {
+
+
+<span>No Items Currently there inside Product Menu</span>
+}
+else {
+<table class="table">
+    <thead>
+    <th>Item name</th>
+    <th>Item Description</th>
+    <th>Action Link</th>
+    </thead>
+    <tbody>
+
+        @foreach (var productmenuitem in Model)
+        {
+            <tr>
+                <td style="display: none" id="productmenuitemid">@productmenuitem.id</td>
+                <td>@productmenuitem.itemname</td>
+                <td>@productmenuitem.itemdesc</td>
+                <td><a href="/Admin/EditProductMenuItem/@productmenuitem.id" class="me-2" id="EditProductMenuItemLink">Edit</a><a href="/Admin/DeleteProductMenuItem/@productmenuitem.id" id="DeleteProductMenuItemLink">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+    }
+</div>

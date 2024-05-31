@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "CreateProductMenu";
+    Layout = "~/Views/Shared/_AdminDashboard.cshtml";
+}
+@using MvcExamTaskMitRao.Models
+@model ProductMenuItem
+
+<h2>CreateProductMenu</h2>
+
+@using (Html.BeginForm("CreateStockMenu", "Admin", FormMethod.Post))
+{
+    @Html.LabelFor(x => x.itemname, "Item Name", new { @class = "form-label d-block" })
+    @Html.TextBoxFor(x => x.itemname, "", new { @class = "form-control", @type = "text" })
+    @Html.ValidationMessageFor(x => x.itemdesc, "", new { @class = "text-danger" })
+
+    @Html.LabelFor(x => x.itemdesc, "Item Description", new { @class = "form-label d-block" })
+    @Html.TextBoxFor(x => x.itemdesc, "@ViewBag.password", new { @class = "form-control", @type = "text" })
+    @Html.ValidationMessageFor(x => x.itemdesc, "", new { @class = "text-danger" })
+
+    <button type="submit" class="btn btn-small btn-success mt-4 d-block">Create Item</button>
+
+}
+
+
+
