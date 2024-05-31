@@ -4,7 +4,13 @@
 }
 
 @using MvcExamTaskMitRao.Models
+<<<<<<< HEAD
 @model (User CurrentUser, List<string> ProductMenus, List<ProductMenuItem> productMenuItems, List<ProductMenuItem> allStockItems)
+=======
+@*@model (User CurrentUser, List<string> ProductMenus, List<ProductMenuItem> productMenuItems, List<ProductMenuItem> allStockItems)*@
+
+@model List<MvcExamTaskMitRao.Models.Menu>
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
 
 <!DOCTYPE html>
 <html>
@@ -16,26 +22,41 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
+<<<<<<< HEAD
     @if (Session["email"] == null)
     {
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
             <div class="container">
                 @Html.ActionLink("MvcExamTaskMitRao", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+=======
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+            <div class="container">
+                @Html.ActionLink("MVCExamTaskMitRao", "Index", "NonAdminUsers", new { area = "" }, new { @class = "navbar-brand" })
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+<<<<<<< HEAD
                         @foreach (var productMenu in Model.ProductMenus)
                         {
                             <li>@Html.ActionLink(productMenu, productMenu, "NonAdminUsers", new { area = "" }, new { @class = "nav-link" })</li>
                         }
+=======
+                        @foreach (var Menu in Model)
+                        {
+                            <li>@Html.ActionLink(Menu.menuType, "Index", "NonAdminUsers", new { area = "" }, new { @class = "nav-link" })</li>
+                        }
+                        <li>@Html.ActionLink("Logout", "Logout", "Auth", new { area = "" }, new { @class = "nav-link" })</li>
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
                         @*<li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>*@
                     </ul>
                 </div>
             </div>
         </nav>
+<<<<<<< HEAD
     }
     else
     {
@@ -74,6 +95,8 @@ if (productMenu.Contains("order"))
             </div>
         </nav>
     }
+=======
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
 
     <div class="container body-content">
         @RenderBody()

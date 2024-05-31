@@ -19,6 +19,7 @@
 
 
 
+<<<<<<< HEAD
 $("#EditProductMenuItemLink").on('click', function (event) {
 
 })
@@ -26,3 +27,88 @@ $("#EditProductMenuItemLink").on('click', function (event) {
 $("#EditProductMenuItemLink").on('click', function (event) {
 
 })
+=======
+function updateUserRoles(target) {
+    debugger
+    let userId = $(target.parentElement.parentElement).find('td:first-child')[0].innerText;
+
+    let updatedRoles = [];
+    $(target.parentElement.parentElement).find("input[type=checkbox]:checked").each(function () {
+        updatedRoles.push({
+            userId: $(this).data('user-id'),
+            roleId: $(this).data('role-id'),
+            isChecked: true
+        });
+    });
+    if (updatedRoles.length == 0) {
+        fetch(`UpdateUserRolesDeleteRoles/${userId}`, {
+            method: 'GET'
+        }).then(function (reponse) {
+            if (response.ok) {
+                console.log('role update succesful');
+                window.location.reload();
+            }
+        }).catch(function (err) {
+            console.log(err);
+        })
+    } else {
+        fetch('UpdateUserRoles', {
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(updatedRoles),
+            method: 'POST'
+        }).then(function (reponse) {
+            if (response.ok) {
+                console.log('role update succesful');
+                window.location.reload();
+            }
+        }).catch(function (err) {
+            console.log(err);
+        })
+    }
+    
+}
+
+
+function updateRoleAccess(target) {
+    let updatedRolesAccess = [];
+    debugger
+
+    let roleId = $(target.parentElement.parentElement).find('td:first-child')[0].innerText;
+    $(target.parentElement.parentElement).find("input[type=checkbox]:checked").each(function () {
+        updatedRolesAccess.push({
+            roleId: $(this).data('role-id'),
+            menuId: $(this).data('menu-id'),
+            isChecked: true
+        });
+    });
+    if (updatedRolesAccess.length == 0) {
+        fetch(`UpdateRolesAccessDeleteAccess/${roleId}`, {
+            method: 'GET'
+        }).then(function (reponse) {
+            if (response.ok) {
+                console.log('role update succesful');
+                window.location.reload();
+            }
+        }).catch(function (err) {
+            console.log(err);
+        })
+    } else {
+        fetch('UpdateRolesAccess', {
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(updatedRolesAccess),
+            method: 'POST'
+        }).then(function (reponse) {
+            if (response.ok) {
+                console.log('role update succesful');
+                window.location.reload();
+            }
+        }).catch(function (err) {
+            console.log(err);
+        })
+    }
+}
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21

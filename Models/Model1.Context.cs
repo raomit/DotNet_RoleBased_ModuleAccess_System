@@ -13,10 +13,17 @@ namespace MvcExamTaskMitRao.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
+<<<<<<< HEAD
     public partial class ExamEntities : DbContext
     {
         public ExamEntities()
             : base("name=ExamEntities")
+=======
+    public partial class RaoMitEntities : DbContext
+    {
+        public RaoMitEntities()
+            : base("name=RaoMitEntities")
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
         {
         }
     
@@ -25,10 +32,16 @@ namespace MvcExamTaskMitRao.Models
             throw new UnintentionalCodeFirstException();
         }
     
+<<<<<<< HEAD
         public virtual DbSet<ProductMenu> ProductMenus { get; set; }
         public virtual DbSet<ProductMenuItem> ProductMenuItems { get; set; }
         public virtual DbSet<Role> Roles { get; set; }
         public virtual DbSet<RolesProductMenu> RolesProductMenus { get; set; }
+=======
+        public virtual DbSet<Menu> Menus { get; set; }
+        public virtual DbSet<Role> Roles { get; set; }
+        public virtual DbSet<RolesMenu> RolesMenus { get; set; }
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
         public virtual DbSet<RolesUser> RolesUsers { get; set; }
         public virtual DbSet<User> Users { get; set; }
     }

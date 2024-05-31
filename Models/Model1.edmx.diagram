@@ -4,6 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
+<<<<<<< HEAD
       <Diagram DiagramId="aa449831abc94c2c806aa154f9a830ac" Name="Diagram1">
         <EntityTypeShape EntityType="ExamModel.ProductMenu" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
         <EntityTypeShape EntityType="ExamModel.ProductMenuItem" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
@@ -17,6 +18,18 @@
         <AssociationConnector Association="ExamModel.FK__RolesProd__roleI__44CA3770" ManuallyRouted="false" />
         <AssociationConnector Association="ExamModel.FK__RolesUser__roleI__71D1E811" ManuallyRouted="false" />
         <AssociationConnector Association="ExamModel.FK__RolesUser__userI__72C60C4A" ManuallyRouted="false" />
+=======
+      <Diagram DiagramId="2e764d935fde46c8a8c252ea23828359" Name="Diagram1">
+        <EntityTypeShape EntityType="RaoMitModel.Menu" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaoMitModel.Role" Width="1.5" PointX="10.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaoMitModel.RolesMenu" Width="1.5" PointX="7.375" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaoMitModel.RolesUser" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaoMitModel.User" Width="1.5" PointX="4.875" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="RaoMitModel.FK__RolesMenu__menuI__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="RaoMitModel.FK__RolesMenu__roleI__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="RaoMitModel.FK__RolesUser__roleI__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="RaoMitModel.FK__RolesUser__userI__403A8C7D" ManuallyRouted="false" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

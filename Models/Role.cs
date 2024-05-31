@@ -17,18 +17,29 @@ namespace MvcExamTaskMitRao.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Role()
         {
+<<<<<<< HEAD
             this.ProductMenus = new HashSet<ProductMenu>();
             this.RolesProductMenus = new HashSet<RolesProductMenu>();
+=======
+            this.RolesMenus = new HashSet<RolesMenu>();
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
             this.RolesUsers = new HashSet<RolesUser>();
         }
     
         public int roleId { get; set; }
+<<<<<<< HEAD
         public string roleName { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ProductMenu> ProductMenus { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<RolesProductMenu> RolesProductMenus { get; set; }
+=======
+        public string roleType { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<RolesMenu> RolesMenus { get; set; }
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<RolesUser> RolesUsers { get; set; }
     }

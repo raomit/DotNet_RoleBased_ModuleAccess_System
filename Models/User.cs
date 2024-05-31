@@ -20,6 +20,7 @@ namespace MvcExamTaskMitRao.Models
             this.RolesUsers = new HashSet<RolesUser>();
         }
     
+<<<<<<< HEAD
         public int UserId { get; set; }
         public string Email { get; set; }
         public Nullable<System.DateTime> BirthDate { get; set; }
@@ -31,6 +32,15 @@ namespace MvcExamTaskMitRao.Models
         public Nullable<System.DateTime> UpdatedOn { get; set; }
         public Nullable<int> CratedBy { get; set; }
         public Nullable<int> Isdeleted { get; set; }
+=======
+        public int userId { get; set; }
+        public string email { get; set; }
+        public string birthDate { get; set; }
+        public string contactNo { get; set; }
+        public string fullName { get; set; }
+        public string password { get; set; }
+        public string type { get; set; }
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<RolesUser> RolesUsers { get; set; }

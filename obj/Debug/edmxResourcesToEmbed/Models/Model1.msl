@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+<<<<<<< HEAD
   <EntityContainerMapping StorageEntityContainer="ExamModelStoreContainer" CdmEntityContainer="ExamEntities">
     <EntitySetMapping Name="ProductMenus">
       <EntityTypeMapping TypeName="ExamModel.ProductMenu">
@@ -18,19 +19,47 @@
           <ScalarProperty Name="itemname" ColumnName="itemname" />
           <ScalarProperty Name="itemdesc" ColumnName="itemdesc" />
           <ScalarProperty Name="ProductMenuId" ColumnName="ProductMenuId" />
+=======
+  <EntityContainerMapping StorageEntityContainer="RaoMitModelStoreContainer" CdmEntityContainer="RaoMitEntities">
+    <EntitySetMapping Name="Menus">
+      <EntityTypeMapping TypeName="RaoMitModel.Menu">
+        <MappingFragment StoreEntitySet="Menu">
+          <ScalarProperty Name="menuId" ColumnName="menuId" />
+          <ScalarProperty Name="menuType" ColumnName="menuType" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Roles">
+<<<<<<< HEAD
       <EntityTypeMapping TypeName="ExamModel.Role">
         <MappingFragment StoreEntitySet="Roles">
           <ScalarProperty Name="roleId" ColumnName="roleId" />
           <ScalarProperty Name="roleName" ColumnName="roleName" />
+=======
+      <EntityTypeMapping TypeName="RaoMitModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="roleId" ColumnName="roleId" />
+          <ScalarProperty Name="roleType" ColumnName="roleType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RolesMenus">
+      <EntityTypeMapping TypeName="RaoMitModel.RolesMenu">
+        <MappingFragment StoreEntitySet="RolesMenus">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="roleId" ColumnName="roleId" />
+          <ScalarProperty Name="menuId" ColumnName="menuId" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="RolesUsers">
+<<<<<<< HEAD
       <EntityTypeMapping TypeName="ExamModel.RolesUser">
+=======
+      <EntityTypeMapping TypeName="RaoMitModel.RolesUser">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
         <MappingFragment StoreEntitySet="RolesUsers">
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="roleId" ColumnName="roleId" />
@@ -39,6 +68,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Users">
+<<<<<<< HEAD
       <EntityTypeMapping TypeName="ExamModel.User">
         <MappingFragment StoreEntitySet="Users">
           <ScalarProperty Name="UserId" ColumnName="UserId" />
@@ -52,6 +82,17 @@
           <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
           <ScalarProperty Name="CratedBy" ColumnName="CratedBy" />
           <ScalarProperty Name="Isdeleted" ColumnName="Isdeleted" />
+=======
+      <EntityTypeMapping TypeName="RaoMitModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="birthDate" ColumnName="birthDate" />
+          <ScalarProperty Name="contactNo" ColumnName="contactNo" />
+          <ScalarProperty Name="fullName" ColumnName="fullName" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="type" ColumnName="type" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

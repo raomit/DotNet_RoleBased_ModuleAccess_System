@@ -132,15 +132,32 @@
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NonAdminUsersController.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="CustomFilters\AdminOnlyAccessFilter.cs" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
     <Compile Include="CustomFilters\LoginAuthFilter.cs" />
     <Compile Include="CustomFilters\RedirectAuthUserFilter.cs" />
     <Compile Include="CustomFilters\RedurectUnAuthUserFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Models\CustomModels\ProductMenuItem.cs" />
     <Compile Include="Models\CustomModels\User.cs" />
     <Compile Include="Models\CustomModels\UserRoleProvider.cs" />
+=======
+    <Compile Include="Models\CustomModels\Menu.cs" />
+    <Compile Include="Models\CustomModels\Min18YearsOld.cs" />
+    <Compile Include="Models\CustomModels\Role.cs" />
+    <Compile Include="Models\CustomModels\UpdateRole.cs" />
+    <Compile Include="Models\CustomModels\UpdateRoleAccess.cs" />
+    <Compile Include="Models\CustomModels\User.cs" />
+    <Compile Include="Models\CustomModels\UserRoleProvider.cs" />
+    <Compile Include="Models\Menu.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
     <Compile Include="Models\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -156,6 +173,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Models\ProductMenu.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -166,6 +184,12 @@
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\RolesProductMenu.cs">
+=======
+    <Compile Include="Models\Role.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RolesMenu.cs">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\RolesUser.cs">
@@ -268,6 +292,19 @@
     <Content Include="Views\NonAdminUsers\GetFoods.cshtml" />
     <Content Include="Views\Shared\AccessDenied.cshtml" />
     <Content Include="Views\Auth\AccessDenied.cshtml" />
+<<<<<<< HEAD
+=======
+    <Content Include="Views\Admin\GetManageMenus.cshtml" />
+    <Content Include="Views\Admin\CreateNewMenu.cshtml" />
+    <Content Include="Views\Admin\UpdateMenu.cshtml" />
+    <Content Include="Views\Admin\GetManageUsers.cshtml" />
+    <Content Include="Views\Admin\CreateNewUser.cshtml" />
+    <Content Include="Views\Admin\UpdateUser.cshtml" />
+    <Content Include="Views\Admin\GetManageRoles.cshtml" />
+    <Content Include="Views\Admin\UpdateRole.cshtml" />
+    <Content Include="Views\Admin\CreateNewRole.cshtml" />
+    <Content Include="Views\NonAdminUsers\Index.cshtml" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

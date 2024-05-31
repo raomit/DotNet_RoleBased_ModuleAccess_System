@@ -13,6 +13,7 @@
 {
     if (ViewBag.error != null)
     {
+<<<<<<< HEAD
         @Html.LabelFor(x => x.Email, "Email", new { @class = "form-label d-block" })
         @Html.TextBoxFor(x => x.Email, "@ViewBag.email", new { @class = "form-control", @type = "email" })
         @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" })
@@ -20,11 +21,21 @@
         @Html.LabelFor(x => x.Password, "Password", new { @class = "form-label d-block" })
         @Html.TextBoxFor(x => x.Password, "@ViewBag.password", new { @class = "form-control", @type = "password" })
         @Html.ValidationMessageFor(x => x.Password, "", new { @class = "text-danger" })
+=======
+        @Html.LabelFor(x => x.email, "Email", new { @class = "form-label d-block" })
+        @Html.TextBoxFor(x => x.email, "@ViewBag.email", new { @class = "form-control", @type = "email" })
+        @Html.ValidationMessageFor(x => x.email, "", new { @class = "text-danger" })
+
+        @Html.LabelFor(x => x.password, "Password", new { @class = "form-label d-block" })
+        @Html.TextBoxFor(x => x.password, "@ViewBag.password", new { @class = "form-control", @type = "password" })
+        @Html.ValidationMessageFor(x => x.password, "", new { @class = "text-danger" })
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
 
         <span class="text-danger">@ViewBag.error</span>
     }
     else
     {
+<<<<<<< HEAD
         @Html.LabelFor(x => x.Email, "Email", new { @class = "form-label d-block" })
         @Html.TextBoxFor(x => x.Email, "", new { @class = "form-control", @type = "email" })
         @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" })
@@ -32,6 +43,15 @@
         @Html.LabelFor(x => x.Password, "Password", new { @class = "form-label d-block" })
         @Html.TextBoxFor(x => x.Password, "", new { @class = "form-control", @type = "password" })
         @Html.ValidationMessageFor(x => x.Password, "", new { @class = "text-danger" })
+=======
+        @Html.LabelFor(x => x.email, "Email", new { @class = "form-label d-block" })
+        @Html.TextBoxFor(x => x.email, "", new { @class = "form-control", @type = "email" })
+        @Html.ValidationMessageFor(x => x.email, "", new { @class = "text-danger" })
+
+        @Html.LabelFor(x => x.password, "Password", new { @class = "form-label d-block" })
+        @Html.TextBoxFor(x => x.password, "", new { @class = "form-control", @type = "password" })
+        @Html.ValidationMessageFor(x => x.password, "", new { @class = "text-danger" })
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
     }
 
 

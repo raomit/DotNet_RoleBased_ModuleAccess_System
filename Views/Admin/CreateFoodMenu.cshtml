@@ -3,12 +3,19 @@
     ViewBag.Title = "CreateProductMenu";
     Layout = "~/Views/Shared/_AdminDashboard.cshtml";
 }
+<<<<<<< HEAD
 @using MvcExamTaskMitRao.Models
 @model ProductMenuItem
 
 <h2>CreateProductMenu</h2>
 
 @using (Html.BeginForm("CreateFoodMenu", "Admin", FormMethod.Post))
+=======
+
+<h2>CreateProductMenu</h2>
+
+@*@using (Html.BeginForm("CreateFoodMenu", "Admin", FormMethod.Post))
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
 {
     @Html.LabelFor(x => x.itemname, "Item Name", new { @class = "form-label d-block" })
     @Html.TextBoxFor(x => x.itemname, "", new { @class = "form-control", @type = "text" })
@@ -20,7 +27,11 @@
 
     <button type="submit" class="btn btn-small btn-success mt-4 d-block">Create Item</button>
 
+<<<<<<< HEAD
 }
+=======
+}*@
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
 
 
 

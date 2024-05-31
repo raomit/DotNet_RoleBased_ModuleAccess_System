@@ -1,0 +1,961 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|c:\\users\\mit\\documents\\dotnetapps\\mvcexamtaskmitrao\\views\\admin\\createnewrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\createnewrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|MvcExamTaskMitRao||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|c:\\users\\mit\\documents\\dotnetapps\\mvcexamtaskmitrao\\models\\custommodels\\min18yearsold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:models\\custommodels\\min18yearsold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\models\\custommodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:models\\custommodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\models\\custommodels\\userroleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:models\\custommodels\\userroleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\models\\custommodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:models\\custommodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|c:\\users\\mit\\documents\\dotnetapps\\mvcexamtaskmitrao\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\auth\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\auth\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\shared\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\shared\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|c:\\users\\mit\\documents\\dotnetapps\\mvcexamtaskmitrao\\views\\nonadminusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\nonadminusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\controllers\\nonadminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:controllers\\nonadminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\getmanageroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\getmanageroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\getmanagemenus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\getmanagemenus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\customfilters\\adminonlyaccessfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:customfilters\\adminonlyaccessfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\content\\assets\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:content\\assets\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\shared\\_admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\shared\\_admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\createnewmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\createnewmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|c:\\users\\mit\\documents\\dotnetapps\\mvcexamtaskmitrao\\views\\admin\\updaterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\updaterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\getmanageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\getmanageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\models\\custommodels\\updateroleaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:models\\custommodels\\updateroleaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\models\\custommodels\\updaterole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:models\\custommodels\\updaterole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\models\\custommodels\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:models\\custommodels\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\updatemenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\updatemenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\updateuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\updateuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\createnewuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\createnewuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\customfilters\\redurectunauthuserfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:customfilters\\redurectunauthuserfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\customfilters\\redirectauthuserfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:customfilters\\redirectauthuserfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\customfilters\\loginauthfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:customfilters\\loginauthfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\createfoodmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\createfoodmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\editproductmenuitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\editproductmenuitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\editordermenuitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\editordermenuitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\nonadminusers\\getfoods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\nonadminusers\\getfoods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\nonadminusers\\getstocks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\nonadminusers\\getstocks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\nonadminusers\\getorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\nonadminusers\\getorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\stockmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\stockmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\ordermenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\ordermenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\editfoodmenuitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\editfoodmenuitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\editstockmenuitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\editstockmenuitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\createproductmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\createproductmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\createstockmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\createstockmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\createordermenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\createordermenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\foodmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\foodmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\views\\admin\\productmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:views\\admin\\productmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|solutionrelative:app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1364E-D787-4BDA-92AD-F6ED7E44E298}|MvcExamTaskMitRao.csproj|c:\\users\\mit\\documents\\dotnetapps\\mvcexamtaskmitrao\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|909d16b3-c8e8-43d1-a2b8-26ea0d4b6b57"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\CustomModels\\Role.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\Role.cs",
+              "RelativeToolTip": "Models\\CustomModels\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T21:21:16.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRoleProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\UserRoleProvider.cs",
+              "RelativeDocumentMoniker": "Models\\CustomModels\\UserRoleProvider.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\UserRoleProvider.cs",
+              "RelativeToolTip": "Models\\CustomModels\\UserRoleProvider.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAqwD4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:48:03.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Min18YearsOld.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\Min18YearsOld.cs",
+              "RelativeDocumentMoniker": "Models\\CustomModels\\Min18YearsOld.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\Min18YearsOld.cs",
+              "RelativeToolTip": "Models\\CustomModels\\Min18YearsOld.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:46:10.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Shared\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Shared\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Shared\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\NonAdminUsers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\NonAdminUsers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\NonAdminUsers\\Index.cshtml",
+              "RelativeToolTip": "Views\\NonAdminUsers\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T04:59:57.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-05-29T15:17:09.388Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAowCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:48:03.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateNewRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateNewRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateNewRole.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateNewRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateNewRole.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T04:20:38.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:06:07.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAPwAAAAAAAAAAAAUwAsBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:48:03.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MvcExamTaskMitRao",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\MvcExamTaskMitRao.csproj",
+              "RelativeDocumentMoniker": "MvcExamTaskMitRao.csproj",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\MvcExamTaskMitRao.csproj",
+              "RelativeToolTip": "MvcExamTaskMitRao.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-29T16:40:43.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\User.cs",
+              "RelativeDocumentMoniker": "Models\\CustomModels\\User.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\User.cs",
+              "RelativeToolTip": "Models\\CustomModels\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:48:03.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Auth\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Auth\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Auth\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NonAdminUsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Controllers\\NonAdminUsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NonAdminUsersController.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Controllers\\NonAdminUsersController.cs",
+              "RelativeToolTip": "Controllers\\NonAdminUsersController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:48:03.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_DashboardLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Shared\\_DashboardLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_DashboardLayout.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Shared\\_DashboardLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_DashboardLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminOnlyAccessFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\CustomFilters\\AdminOnlyAccessFilter.cs",
+              "RelativeDocumentMoniker": "CustomFilters\\AdminOnlyAccessFilter.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\CustomFilters\\AdminOnlyAccessFilter.cs",
+              "RelativeToolTip": "CustomFilters\\AdminOnlyAccessFilter.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA/wBIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:45:54.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Content\\Assets\\main.js",
+              "RelativeDocumentMoniker": "Content\\Assets\\main.js",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Content\\Assets\\main.js",
+              "RelativeToolTip": "Content\\Assets\\main.js",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-29T14:48:03.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Shared\\_AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Shared\\_AdminDashboard.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AdminDashboard.cshtml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetManageRoles.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\GetManageRoles.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\GetManageRoles.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\GetManageRoles.cshtml",
+              "RelativeToolTip": "Views\\Admin\\GetManageRoles.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAAD4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T20:45:51.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetManageMenus.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\GetManageMenus.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\GetManageMenus.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\GetManageMenus.cshtml",
+              "RelativeToolTip": "Views\\Admin\\GetManageMenus.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T16:10:58.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Register.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateRole.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\UpdateRole.cs",
+              "RelativeDocumentMoniker": "Models\\CustomModels\\UpdateRole.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\UpdateRole.cs",
+              "RelativeToolTip": "Models\\CustomModels\\UpdateRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T19:29:29.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateRoleAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\UpdateRoleAccess.cs",
+              "RelativeDocumentMoniker": "Models\\CustomModels\\UpdateRoleAccess.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\UpdateRoleAccess.cs",
+              "RelativeToolTip": "Models\\CustomModels\\UpdateRoleAccess.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T21:31:32.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetManageUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\GetManageUsers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\GetManageUsers.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\GetManageUsers.cshtml",
+              "RelativeToolTip": "Views\\Admin\\GetManageUsers.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T17:54:47.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateNewMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateNewMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateNewMenu.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateNewMenu.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateNewMenu.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T17:04:04.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\UpdateRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\UpdateRole.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\UpdateRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\UpdateRole.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T21:18:28.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\UpdateMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\UpdateMenu.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\UpdateMenu.cshtml",
+              "RelativeToolTip": "Views\\Admin\\UpdateMenu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T17:25:04.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\UpdateUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\UpdateUser.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\UpdateUser.cshtml",
+              "RelativeToolTip": "Views\\Admin\\UpdateUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T19:53:59.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\Menu.cs",
+              "RelativeDocumentMoniker": "Models\\CustomModels\\Menu.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\CustomModels\\Menu.cs",
+              "RelativeToolTip": "Models\\CustomModels\\Menu.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:04:47.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "Models\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Models\\Model1.Context.cs",
+              "RelativeToolTip": "Models\\Model1.Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T20:57:57.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginAuthFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\CustomFilters\\LoginAuthFilter.cs",
+              "RelativeDocumentMoniker": "CustomFilters\\LoginAuthFilter.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\CustomFilters\\LoginAuthFilter.cs",
+              "RelativeToolTip": "CustomFilters\\LoginAuthFilter.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:48:03.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateNewUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateNewUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateNewUser.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateNewUser.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateNewUser.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwCYAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T18:53:57.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RedurectUnAuthUserFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\CustomFilters\\RedurectUnAuthUserFilter.cs",
+              "RelativeDocumentMoniker": "CustomFilters\\RedurectUnAuthUserFilter.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\CustomFilters\\RedurectUnAuthUserFilter.cs",
+              "RelativeToolTip": "CustomFilters\\RedurectUnAuthUserFilter.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:48:03.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RedirectAuthUserFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\CustomFilters\\RedirectAuthUserFilter.cs",
+              "RelativeDocumentMoniker": "CustomFilters\\RedirectAuthUserFilter.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\CustomFilters\\RedirectAuthUserFilter.cs",
+              "RelativeToolTip": "CustomFilters\\RedirectAuthUserFilter.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:48:03.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CreateFoodMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateFoodMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateFoodMenu.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateFoodMenu.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateFoodMenu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAWwAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowBcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-29T14:48:03.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAgwEUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:48:03.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GetOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\NonAdminUsers\\GetOrders.cshtml",
+              "RelativeDocumentMoniker": "Views\\NonAdminUsers\\GetOrders.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\NonAdminUsers\\GetOrders.cshtml",
+              "RelativeToolTip": "Views\\NonAdminUsers\\GetOrders.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Users.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Users.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EditOrderMenuItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\EditOrderMenuItem.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditOrderMenuItem.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\EditOrderMenuItem.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditOrderMenuItem.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EditProductMenuItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\EditProductMenuItem.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditProductMenuItem.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\EditProductMenuItem.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditProductMenuItem.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "GetStocks.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\NonAdminUsers\\GetStocks.cshtml",
+              "RelativeDocumentMoniker": "Views\\NonAdminUsers\\GetStocks.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\NonAdminUsers\\GetStocks.cshtml",
+              "RelativeToolTip": "Views\\NonAdminUsers\\GetStocks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GetFoods.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\NonAdminUsers\\GetFoods.cshtml",
+              "RelativeDocumentMoniker": "Views\\NonAdminUsers\\GetFoods.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\NonAdminUsers\\GetFoods.cshtml",
+              "RelativeToolTip": "Views\\NonAdminUsers\\GetFoods.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "StockMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\StockMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\StockMenu.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\StockMenu.cshtml",
+              "RelativeToolTip": "Views\\Admin\\StockMenu.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "OrderMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\OrderMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\OrderMenu.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\OrderMenu.cshtml",
+              "RelativeToolTip": "Views\\Admin\\OrderMenu.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EditFoodMenuItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\EditFoodMenuItem.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditFoodMenuItem.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\EditFoodMenuItem.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditFoodMenuItem.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CreateOrderMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateOrderMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateOrderMenu.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateOrderMenu.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateOrderMenu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "FoodMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\FoodMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\FoodMenu.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\FoodMenu.cshtml",
+              "RelativeToolTip": "Views\\Admin\\FoodMenu.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CreateStockMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateStockMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateStockMenu.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateStockMenu.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateStockMenu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EditStockMenuItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\EditStockMenuItem.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditStockMenuItem.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\EditStockMenuItem.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditStockMenuItem.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CreateProductMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateProductMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateProductMenu.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\CreateProductMenu.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateProductMenu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ProductMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\ProductMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ProductMenu.cshtml",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\Views\\Admin\\ProductMenu.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ProductMenu.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T14:48:03.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\Mit\\Documents\\DotNetApps\\MvcExamTaskMitRao\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:48:03.119Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

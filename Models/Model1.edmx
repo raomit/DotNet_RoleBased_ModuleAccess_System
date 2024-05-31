@@ -4,6 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
+<<<<<<< HEAD
       <Schema Namespace="ExamModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="ProductMenu">
           <Key>
@@ -24,19 +25,40 @@
           <Property Name="ProductMenuId" Type="int" />
         </EntityType>
         <EntityType Name="Roles">
+=======
+    <Schema Namespace="RaoMitModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Menu">
+          <Key>
+            <PropertyRef Name="menuId" />
+          </Key>
+          <Property Name="menuId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="menuType" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Role">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
           <Key>
             <PropertyRef Name="roleId" />
           </Key>
           <Property Name="roleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+<<<<<<< HEAD
           <Property Name="roleName" Type="varchar" MaxLength="255" Nullable="false" />
         </EntityType>
         <EntityType Name="RolesProductMenus">
+=======
+          <Property Name="roleType" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RolesMenus">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
           <Key>
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="roleId" Type="int" />
+<<<<<<< HEAD
           <Property Name="productMenuId" Type="int" />
+=======
+          <Property Name="menuId" Type="int" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
         </EntityType>
         <EntityType Name="RolesUsers">
           <Key>
@@ -48,6 +70,7 @@
         </EntityType>
         <EntityType Name="Users">
           <Key>
+<<<<<<< HEAD
             <PropertyRef Name="UserId" />
           </Key>
           <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
@@ -82,10 +105,43 @@
               <PropertyRef Name="roleId" />
             </Principal>
             <Dependent Role="ProductMenu">
+=======
+            <PropertyRef Name="userId" />
+          </Key>
+          <Property Name="userId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="email" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="birthDate" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="contactNo" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="fullName" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="type" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__RolesMenu__menuI__440B1D61">
+          <End Role="Menu" Type="Self.Menu" Multiplicity="0..1" />
+          <End Role="RolesMenus" Type="Self.RolesMenus" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Menu">
+              <PropertyRef Name="menuId" />
+            </Principal>
+            <Dependent Role="RolesMenus">
+              <PropertyRef Name="menuId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__RolesMenu__roleI__4316F928">
+          <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+          <End Role="RolesMenus" Type="Self.RolesMenus" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="roleId" />
+            </Principal>
+            <Dependent Role="RolesMenus">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
               <PropertyRef Name="roleId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
+<<<<<<< HEAD
         <Association Name="FK__RolesProd__produ__45BE5BA9">
           <End Role="ProductMenu" Type="Self.ProductMenu" Multiplicity="0..1" />
           <End Role="RolesProductMenus" Type="Self.RolesProductMenus" Multiplicity="*" />
@@ -115,6 +171,13 @@
           <End Role="RolesUsers" Type="Self.RolesUsers" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Roles">
+=======
+        <Association Name="FK__RolesUser__roleI__3F466844">
+          <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+          <End Role="RolesUsers" Type="Self.RolesUsers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
               <PropertyRef Name="roleId" />
             </Principal>
             <Dependent Role="RolesUsers">
@@ -122,18 +185,27 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+<<<<<<< HEAD
         <Association Name="FK__RolesUser__userI__72C60C4A">
+=======
+        <Association Name="FK_RolesUsers_Users">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
           <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
           <End Role="RolesUsers" Type="Self.RolesUsers" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Users">
+<<<<<<< HEAD
               <PropertyRef Name="UserId" />
+=======
+              <PropertyRef Name="userId" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
             </Principal>
             <Dependent Role="RolesUsers">
               <PropertyRef Name="userId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
+<<<<<<< HEAD
         <EntityContainer Name="ExamModelStoreContainer">
           <EntitySet Name="ProductMenu" EntityType="Self.ProductMenu" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="ProductMenuItem" EntityType="Self.ProductMenuItem" Schema="dbo" store:Type="Tables" />
@@ -162,10 +234,32 @@
             <End Role="RolesUsers" EntitySet="RolesUsers" />
           </AssociationSet>
           <AssociationSet Name="FK__RolesUser__userI__72C60C4A" Association="Self.FK__RolesUser__userI__72C60C4A">
+=======
+        <EntityContainer Name="RaoMitModelStoreContainer">
+          <EntitySet Name="Menu" EntityType="Self.Menu" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RolesMenus" EntityType="Self.RolesMenus" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RolesUsers" EntityType="Self.RolesUsers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__RolesMenu__menuI__440B1D61" Association="Self.FK__RolesMenu__menuI__440B1D61">
+            <End Role="Menu" EntitySet="Menu" />
+            <End Role="RolesMenus" EntitySet="RolesMenus" />
+          </AssociationSet>
+          <AssociationSet Name="FK__RolesMenu__roleI__4316F928" Association="Self.FK__RolesMenu__roleI__4316F928">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="RolesMenus" EntitySet="RolesMenus" />
+          </AssociationSet>
+          <AssociationSet Name="FK__RolesUser__roleI__3F466844" Association="Self.FK__RolesUser__roleI__3F466844">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="RolesUsers" EntitySet="RolesUsers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RolesUsers_Users" Association="Self.FK_RolesUsers_Users">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
             <End Role="Users" EntitySet="Users" />
             <End Role="RolesUsers" EntitySet="RolesUsers" />
           </AssociationSet>
         </EntityContainer>
+<<<<<<< HEAD
       </Schema>
     </edmx:StorageModels>
     <!-- CSDL content -->
@@ -192,26 +286,53 @@
           <Property Name="itemdesc" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="ProductMenuId" Type="Int32" />
           <NavigationProperty Name="ProductMenu" Relationship="Self.FK__ProductMe__Produ__3493CFA7" FromRole="ProductMenuItem" ToRole="ProductMenu" />
+=======
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="RaoMitModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Menu">
+          <Key>
+            <PropertyRef Name="menuId" />
+          </Key>
+          <Property Name="menuId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="menuType" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="RolesMenus" Relationship="Self.FK__RolesMenu__menuI__440B1D61" FromRole="Menu" ToRole="RolesMenus" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
         </EntityType>
         <EntityType Name="Role">
           <Key>
             <PropertyRef Name="roleId" />
           </Key>
           <Property Name="roleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+<<<<<<< HEAD
           <Property Name="roleName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="ProductMenus" Relationship="Self.FK__ProductMe__roleI__7F2BE32F" FromRole="Roles" ToRole="ProductMenu" />
           <NavigationProperty Name="RolesProductMenus" Relationship="Self.FK__RolesProd__roleI__44CA3770" FromRole="Roles" ToRole="RolesProductMenus" />
           <NavigationProperty Name="RolesUsers" Relationship="Self.FK__RolesUser__roleI__71D1E811" FromRole="Roles" ToRole="RolesUsers" />
         </EntityType>
         <EntityType Name="RolesProductMenu">
+=======
+          <Property Name="roleType" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="RolesMenus" Relationship="Self.FK__RolesMenu__roleI__4316F928" FromRole="Role" ToRole="RolesMenus" />
+          <NavigationProperty Name="RolesUsers" Relationship="Self.FK__RolesUser__roleI__3F466844" FromRole="Role" ToRole="RolesUsers" />
+        </EntityType>
+        <EntityType Name="RolesMenu">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
           <Key>
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="roleId" Type="Int32" />
+<<<<<<< HEAD
           <Property Name="productMenuId" Type="Int32" />
           <NavigationProperty Name="ProductMenu" Relationship="Self.FK__RolesProd__produ__45BE5BA9" FromRole="RolesProductMenus" ToRole="ProductMenu" />
           <NavigationProperty Name="Role" Relationship="Self.FK__RolesProd__roleI__44CA3770" FromRole="RolesProductMenus" ToRole="Roles" />
+=======
+          <Property Name="menuId" Type="Int32" />
+          <NavigationProperty Name="Menu" Relationship="Self.FK__RolesMenu__menuI__440B1D61" FromRole="RolesMenus" ToRole="Menu" />
+          <NavigationProperty Name="Role" Relationship="Self.FK__RolesMenu__roleI__4316F928" FromRole="RolesMenus" ToRole="Role" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
         </EntityType>
         <EntityType Name="RolesUser">
           <Key>
@@ -220,6 +341,7 @@
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="roleId" Type="Int32" />
           <Property Name="userId" Type="Int32" />
+<<<<<<< HEAD
           <NavigationProperty Name="Role" Relationship="Self.FK__RolesUser__roleI__71D1E811" FromRole="RolesUsers" ToRole="Roles" />
           <NavigationProperty Name="User" Relationship="Self.FK__RolesUser__userI__72C60C4A" FromRole="RolesUsers" ToRole="Users" />
         </EntityType>
@@ -260,10 +382,49 @@
               <PropertyRef Name="roleId" />
             </Principal>
             <Dependent Role="ProductMenu">
+=======
+          <NavigationProperty Name="Role" Relationship="Self.FK__RolesUser__roleI__3F466844" FromRole="RolesUsers" ToRole="Role" />
+          <NavigationProperty Name="User" Relationship="Self.FK__RolesUser__userI__403A8C7D" FromRole="RolesUsers" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="userId" />
+          </Key>
+          <Property Name="userId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="birthDate" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="contactNo" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="fullName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="type" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="RolesUsers" Relationship="Self.FK__RolesUser__userI__403A8C7D" FromRole="Users" ToRole="RolesUsers" />
+        </EntityType>
+        <Association Name="FK__RolesMenu__menuI__440B1D61">
+          <End Role="Menu" Type="Self.Menu" Multiplicity="0..1" />
+          <End Role="RolesMenus" Type="Self.RolesMenu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Menu">
+              <PropertyRef Name="menuId" />
+            </Principal>
+            <Dependent Role="RolesMenus">
+              <PropertyRef Name="menuId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__RolesMenu__roleI__4316F928">
+          <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+          <End Role="RolesMenus" Type="Self.RolesMenu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="roleId" />
+            </Principal>
+            <Dependent Role="RolesMenus">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
               <PropertyRef Name="roleId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
+<<<<<<< HEAD
         <Association Name="FK__RolesProd__produ__45BE5BA9">
           <End Role="ProductMenu" Type="Self.ProductMenu" Multiplicity="0..1" />
           <End Role="RolesProductMenus" Type="Self.RolesProductMenu" Multiplicity="*" />
@@ -293,6 +454,13 @@
           <End Role="RolesUsers" Type="Self.RolesUser" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Roles">
+=======
+        <Association Name="FK__RolesUser__roleI__3F466844">
+          <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+          <End Role="RolesUsers" Type="Self.RolesUser" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
               <PropertyRef Name="roleId" />
             </Principal>
             <Dependent Role="RolesUsers">
@@ -300,18 +468,27 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+<<<<<<< HEAD
         <Association Name="FK__RolesUser__userI__72C60C4A">
+=======
+        <Association Name="FK__RolesUser__userI__403A8C7D">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
           <End Role="Users" Type="Self.User" Multiplicity="0..1" />
           <End Role="RolesUsers" Type="Self.RolesUser" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Users">
+<<<<<<< HEAD
               <PropertyRef Name="UserId" />
+=======
+              <PropertyRef Name="userId" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
             </Principal>
             <Dependent Role="RolesUsers">
               <PropertyRef Name="userId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
+<<<<<<< HEAD
         <EntityContainer Name="ExamEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="ProductMenus" EntityType="Self.ProductMenu" />
           <EntitySet Name="ProductMenuItems" EntityType="Self.ProductMenuItem" />
@@ -340,6 +517,27 @@
             <End Role="RolesUsers" EntitySet="RolesUsers" />
           </AssociationSet>
           <AssociationSet Name="FK__RolesUser__userI__72C60C4A" Association="Self.FK__RolesUser__userI__72C60C4A">
+=======
+        <EntityContainer Name="RaoMitEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Menus" EntityType="Self.Menu" />
+          <EntitySet Name="Roles" EntityType="Self.Role" />
+          <EntitySet Name="RolesMenus" EntityType="Self.RolesMenu" />
+          <EntitySet Name="RolesUsers" EntityType="Self.RolesUser" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <AssociationSet Name="FK__RolesMenu__menuI__440B1D61" Association="Self.FK__RolesMenu__menuI__440B1D61">
+            <End Role="Menu" EntitySet="Menus" />
+            <End Role="RolesMenus" EntitySet="RolesMenus" />
+          </AssociationSet>
+          <AssociationSet Name="FK__RolesMenu__roleI__4316F928" Association="Self.FK__RolesMenu__roleI__4316F928">
+            <End Role="Role" EntitySet="Roles" />
+            <End Role="RolesMenus" EntitySet="RolesMenus" />
+          </AssociationSet>
+          <AssociationSet Name="FK__RolesUser__roleI__3F466844" Association="Self.FK__RolesUser__roleI__3F466844">
+            <End Role="Role" EntitySet="Roles" />
+            <End Role="RolesUsers" EntitySet="RolesUsers" />
+          </AssociationSet>
+          <AssociationSet Name="FK__RolesUser__userI__403A8C7D" Association="Self.FK__RolesUser__userI__403A8C7D">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
             <End Role="Users" EntitySet="Users" />
             <End Role="RolesUsers" EntitySet="RolesUsers" />
           </AssociationSet>
@@ -349,6 +547,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+<<<<<<< HEAD
         <EntityContainerMapping StorageEntityContainer="ExamModelStoreContainer" CdmEntityContainer="ExamEntities">
           <EntitySetMapping Name="ProductMenus">
             <EntityTypeMapping TypeName="ExamModel.ProductMenu">
@@ -367,10 +566,19 @@
                 <ScalarProperty Name="itemname" ColumnName="itemname" />
                 <ScalarProperty Name="itemdesc" ColumnName="itemdesc" />
                 <ScalarProperty Name="ProductMenuId" ColumnName="ProductMenuId" />
+=======
+        <EntityContainerMapping StorageEntityContainer="RaoMitModelStoreContainer" CdmEntityContainer="RaoMitEntities">
+          <EntitySetMapping Name="Menus">
+            <EntityTypeMapping TypeName="RaoMitModel.Menu">
+              <MappingFragment StoreEntitySet="Menu">
+                <ScalarProperty Name="menuId" ColumnName="menuId" />
+                <ScalarProperty Name="menuType" ColumnName="menuType" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Roles">
+<<<<<<< HEAD
             <EntityTypeMapping TypeName="ExamModel.Role">
               <MappingFragment StoreEntitySet="Roles">
                 <ScalarProperty Name="roleId" ColumnName="roleId" />
@@ -384,11 +592,30 @@
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="roleId" ColumnName="roleId" />
                 <ScalarProperty Name="productMenuId" ColumnName="productMenuId" />
+=======
+            <EntityTypeMapping TypeName="RaoMitModel.Role">
+              <MappingFragment StoreEntitySet="Role">
+                <ScalarProperty Name="roleId" ColumnName="roleId" />
+                <ScalarProperty Name="roleType" ColumnName="roleType" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RolesMenus">
+            <EntityTypeMapping TypeName="RaoMitModel.RolesMenu">
+              <MappingFragment StoreEntitySet="RolesMenus">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="roleId" ColumnName="roleId" />
+                <ScalarProperty Name="menuId" ColumnName="menuId" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="RolesUsers">
+<<<<<<< HEAD
             <EntityTypeMapping TypeName="ExamModel.RolesUser">
+=======
+            <EntityTypeMapping TypeName="RaoMitModel.RolesUser">
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
               <MappingFragment StoreEntitySet="RolesUsers">
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="roleId" ColumnName="roleId" />
@@ -397,6 +624,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Users">
+<<<<<<< HEAD
             <EntityTypeMapping TypeName="ExamModel.User">
               <MappingFragment StoreEntitySet="Users">
                 <ScalarProperty Name="UserId" ColumnName="UserId" />
@@ -410,6 +638,17 @@
                 <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
                 <ScalarProperty Name="CratedBy" ColumnName="CratedBy" />
                 <ScalarProperty Name="Isdeleted" ColumnName="Isdeleted" />
+=======
+            <EntityTypeMapping TypeName="RaoMitModel.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="userId" ColumnName="userId" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="birthDate" ColumnName="birthDate" />
+                <ScalarProperty Name="contactNo" ColumnName="contactNo" />
+                <ScalarProperty Name="fullName" ColumnName="fullName" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="type" ColumnName="type" />
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

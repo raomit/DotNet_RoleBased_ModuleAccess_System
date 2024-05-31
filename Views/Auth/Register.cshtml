@@ -10,14 +10,21 @@
 
 @using (Html.BeginForm("Register", "Auth", FormMethod.Post))
 {
+<<<<<<< HEAD
     @Html.LabelFor(x => x.Email, "Email", new { @class = "form-label d-block" })
     @Html.TextBoxFor(x => x.Email, "", new { @class = "form-control", @type = "email" })
     @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" })
+=======
+    @Html.LabelFor(x => x.email, "Email", new { @class = "form-label d-block" })
+    @Html.TextBoxFor(x => x.email, "", new { @class = "form-control", @type = "email" })
+    @Html.ValidationMessageFor(x => x.email, "", new { @class = "text-danger" })
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
 
     if (ViewBag.error != null) { 
        <span class="text-danger">@ViewBag.error</span> 
     }
 
+<<<<<<< HEAD
     @Html.LabelFor(x => x.Fullname, "Fullname", new { @class = "form-label d-block" })
     @Html.TextBoxFor(x => x.Fullname, "", new { @class = "form-control", @type = "text" })
     @Html.ValidationMessageFor(x => x.Fullname, "", new { @class = "text-danger" })
@@ -33,6 +40,23 @@
     @Html.LabelFor(x => x.ContactNo, "Contact No", new { @class = "form-label d-block" })
     @Html.TextBoxFor(x => x.ContactNo, "", new { @class = "form-control", @type = "number" })
     @Html.ValidationMessageFor(x => x.ContactNo, "", new { @class = "text-danger" })
+=======
+    @Html.LabelFor(x => x.fullName, "Fullname", new { @class = "form-label d-block" })
+    @Html.TextBoxFor(x => x.fullName, "", new { @class = "form-control", @type = "text" })
+    @Html.ValidationMessageFor(x => x.fullName, "", new { @class = "text-danger" })
+
+    @Html.LabelFor(x => x.birthDate, "Birth Date", new { @class = "form-label d-block", @max = "1995-12-31" })
+    @Html.TextBoxFor(x => x.birthDate, "", new { @class = "form-control", @type = "date" })
+    @Html.ValidationMessageFor(x => x.birthDate, "", new { @class = "text-danger" })
+
+    @Html.LabelFor(x => x.password, "Password", new { @class = "form-label d-block" })
+    @Html.TextBoxFor(x => x.password, "", new { @class = "form-control", @type = "password" })
+    @Html.ValidationMessageFor(x => x.password, "", new { @class = "text-danger" })
+
+    @Html.LabelFor(x => x.contactNo, "Contact No", new { @class = "form-label d-block" })
+    @Html.TextBoxFor(x => x.contactNo, "", new { @class = "form-control", @type = "number" })
+    @Html.ValidationMessageFor(x => x.contactNo, "", new { @class = "text-danger" })
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
 
 
     <button type="submit" class="btn btn-small btn-success mt-4 d-block">Register</button>

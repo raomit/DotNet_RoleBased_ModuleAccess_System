@@ -35,6 +35,7 @@ namespace MvcExamTaskMitRao.Controllers
         public ActionResult login(string Email, string Password)
         {
 
+<<<<<<< HEAD
             using (var _dbcontext = new ExamEntities())
             {
                 var check = _dbcontext.Users.FirstOrDefault(user => user.Email == Email && user.Password == Password);
@@ -45,6 +46,38 @@ namespace MvcExamTaskMitRao.Controllers
                     FormsAuthentication.SetAuthCookie(Email, false);
                     //return redirect("/home/index");
                     return RedirectToAction("index", "home");
+=======
+            using (var _dbcontext = new RaoMitEntities())
+            {
+                var User = _dbcontext.Users.FirstOrDefault(user => user.email == Email && user.password == Password);
+
+                if (User != null)
+                {
+                    Session["email"] = Email;
+                    Session["password"] = Password;
+                    FormsAuthentication.SetAuthCookie(Email, false);
+                    var IsUserAdmin = false;
+
+                    foreach(var Role in User.RolesUsers)
+                    {
+                        if(Role.roleId == 1)
+                        {
+                            IsUserAdmin = true;
+                            break;
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+
+                    if (IsUserAdmin)
+                    {
+                        return RedirectToAction("Index", "Admin");
+                    }
+                    //return redirect("/home/index");
+                    return RedirectToAction("Index", "NonAdminUsers");
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
                 }
                 else
                 {
@@ -75,13 +108,20 @@ namespace MvcExamTaskMitRao.Controllers
         [HttpPost]
         public ActionResult Register(User user)
         {
+<<<<<<< HEAD
             using (ExamEntities _dbContext = new ExamEntities())
             {
                 var check = _dbContext.Users.FirstOrDefault(User => User.Email == user.Email);
+=======
+            using (RaoMitEntities _dbContext = new RaoMitEntities())
+            {
+                var check = _dbContext.Users.FirstOrDefault(User => User.email == user.email);
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
                 if (check == null)
                 {
                     try
                     {
+<<<<<<< HEAD
                         user.Type = "customer";
                         _dbContext.Users.Add(user);
                         
@@ -90,6 +130,15 @@ namespace MvcExamTaskMitRao.Controllers
 
                         _dbContext.SaveChanges();
                         Session["email"] = user.Email;
+=======
+                        user.type = "customer";
+                        _dbContext.Users.Add(user);
+                        
+                        _dbContext.SaveChanges();
+                        _dbContext.RolesUsers.Add(new RolesUser { roleId = 3, userId = user.userId });
+
+                        _dbContext.SaveChanges();
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
                         return Redirect("~/Auth/Login");
                     }
                     catch (DbEntityValidationException dbEx)

@@ -43,6 +43,7 @@
                 </button>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+<<<<<<< HEAD
 
                         <li>@Html.ActionLink("Product Menu", "ProductMenu", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
                         <li>@Html.ActionLink("Food Ticket Menu", "FoodMenu", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
@@ -50,6 +51,11 @@
                         <li>@Html.ActionLink("Stock Management Menu", "StockMenu", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
                         <li>@Html.ActionLink("Manage User and Roles", "GetUsers", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
                         @*<li>@Html.ActionLink("Users", "Users", "Admin", new { area = "" }, new { @class = "nav-link" })</li>*@
+=======
+                        <li>@Html.ActionLink("Manage Menus", "GetManageMenus", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                        <li>@Html.ActionLink("Manage Users", "GetManageUsers", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                        <li>@Html.ActionLink("Manage Roles", "GetManageRoles", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+>>>>>>> 9fd577dc6259ea9bd5308c32a72a08f9358d1f21
                         <li>@Html.ActionLink("Logout", "Logout", "Auth", new { area = "" }, new { @class = "nav-link" })</li>
                     </ul>
                 </div>

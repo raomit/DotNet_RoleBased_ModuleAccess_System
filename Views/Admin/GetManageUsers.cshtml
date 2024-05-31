@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "GetManageUsers";
+    Layout = "~/Views/Shared/_AdminDashboard.cshtml";
+}
+
+@model(List<MvcExamTaskMitRao.Models.User> AllUsers, List<MvcExamTaskMitRao.Models.Role> AllRoles)
+
+<h2>Manage Users</h2>
+
+<div class="container d-flex justify-content-end">
+    <button class="btn btn-primary"><a class="link-light page-link" href="~/Admin/CreateNewUser">Create New User</a></button>
+</div>
+<table class="table table-hover text-center">
+    <thead>
+    <th>User id</th>
+    <th>User Name</th>
+    @foreach(var Role in Model.AllRoles)
+            {
+                <th>@Role.roleType</th>
+            }
+    <th>Menu Action</th>
+    </thead>
+    <tbody>
+        @foreach (var User in @Model.AllUsers)
+        {
+            <tr>
+                <td>@User.userId</td>
+                <td>@User.fullName</td>
+                @foreach (var Role in Model.AllRoles)
+                {
+                <td>
+
+                    @if (User.type == "admin")
+                    {
+                        if (Role.roleType == "admin")
+                        {
+                            <input type="checkbox" name="selectedRoles" value="@Role.roleId" checked disabled />
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        bool IsRoleExist = User.RolesUsers.Any(ru => ru.Role.roleId == Role.roleId);
+                        <input type="checkbox" name="selectedRoles" data-role-id="@Role.roleId" data-user-id="@User.userId" value="@Role.roleId" @(IsRoleExist ? "checked" : "") />
+                    }
+
+                </td>
+                }
+            <td>
+                <button class="btn btn-secondary"><a class="link-light page-link" href="/Admin/UpdateUser/@User.userId">Update User Info</a></button>
+                @if (!(User.type == "admin"))
+                {
+                    <button class="btn btn-success" onclick="updateUserRoles(this)">Update User Roles</button>
+                    <button class="btn btn-danger"><a class="link-light page-link" href="/Admin/DeleteUser/@User.userId">Delete User</a></button>
+                }
+
+            </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
